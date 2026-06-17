@@ -1,0 +1,30 @@
+{
+  "name": "openai-tts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "te:once": "ts-node-dev --transpile-only scripts/te.ts",
+    "te:dev": "ts-node-dev --respawn=true --transpile-only --cls ./scripts/te.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/jest": "^29.5.12",
+    "expect": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.21.0",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.17.0",
+    "ml-kmeans": "^6.0.0",
+    "openai": "^4.67.1",
+    "ts-node-dev": "^2.0.0",
+    "zod": "^3.23.8"
+  }
+}
